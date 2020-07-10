@@ -6,6 +6,16 @@ Project that predicts the rating of a given Yelp review for a restaurant. The pu
 
 Please read the report for more information and for the results of the project. The Jupyter Notebook provides the graphs, results and code for the report.
 
+# Data
+
+The datasets provided were:
+- Raw restaurant reviews
+- Meta dataset 
+- Sparse Matrix (Word Counts for each review)
+- Doc2Vec representations of the reviews
+
+Doc2Vec representations were not investigated.
+
 # Improvements
 
 One of the big areas for improvement is the model performance. The best performing model had an accuracy of 81.7%, which can be greatly improved on. Such approaches would be using tailored data pre-processing methods instead of directly using the provided text representations. Also, advanced methods such as bagging (random forests), boosting, ensemble learners or even neural networks were not investigated and could improve the model performance.
